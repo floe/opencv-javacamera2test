@@ -10,7 +10,7 @@ android {
         targetSdkVersion 21
 
         ndk {
-            moduleName "mixed_sample"
+            moduleName "mixed-sample"
         }
 
         externalNativeBuild {
