@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 11
+    compileSdkVersion 21
     buildToolsVersion "26.0.2"
 
     defaultConfig {
         applicationId "org.opencv.samples.tutorial2"
         minSdkVersion 8
-        targetSdkVersion 8
+        targetSdkVersion 21
 
         ndk {
             moduleName "mixed_sample"
