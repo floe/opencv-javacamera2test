@@ -32,6 +32,9 @@ find_library( # Sets the name of the path variable.
               # you want CMake to locate.
               log )
 
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS}) # Not needed for CMake >= 2.8.11
+
 # Specifies libraries CMake should link to your target library. You
 # can link multiple libraries, such as libraries you define in this
 # build script, prebuilt third-party libraries, or system libraries.
@@ -41,4 +44,4 @@ target_link_libraries( # Specifies the target library.
 
                        # Links the target library to the log library
                        # included in the NDK.
-                       ${log-lib} )
+                       ${log-lib} ${OpenCV_LIBS})
