@@ -10,14 +10,15 @@ import org.opencv.android.CameraBridgeViewBase;
 import org.opencv.android.CameraBridgeViewBase.CvCameraViewListener2;
 import org.opencv.imgproc.Imgproc;
 
-import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.WindowManager;
 
-public class Tutorial2Activity extends Activity implements CvCameraViewListener2 {
+public class Tutorial2Activity extends AppCompatActivity implements CvCameraViewListener2 {
     private static final String    TAG = "OCVSample::Activity";
 
     private static final int       VIEW_MODE_RGBA     = 0;
@@ -74,6 +75,9 @@ public class Tutorial2Activity extends Activity implements CvCameraViewListener2
         mOpenCvCameraView = (CameraBridgeViewBase) findViewById(R.id.tutorial2_activity_surface_view);
         mOpenCvCameraView.setVisibility(CameraBridgeViewBase.VISIBLE);
         mOpenCvCameraView.setCvCameraViewListener(this);
+
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(myToolbar);
     }
 
     @Override
