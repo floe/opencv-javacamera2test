@@ -77,6 +77,7 @@ public class Tutorial2Activity extends AppCompatActivity implements CvCameraView
         mOpenCvCameraView.setCvCameraViewListener(this);
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
+        myToolbar.setOverflowIcon(null);
         setSupportActionBar(myToolbar);
     }
 
