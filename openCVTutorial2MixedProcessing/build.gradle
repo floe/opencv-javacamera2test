@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "org.opencv.samples.tutorial2"
-        minSdkVersion 14
+        minSdkVersion 21
         targetSdkVersion 21
 
         ndk {
@@ -46,7 +46,7 @@ allprojects {
 }
 
 dependencies {
-    compile project(':openCVLibrary331')
+    compile project(':openCVLibrary331-dev')
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support:design:25.3.1'
 }

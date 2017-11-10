@@ -1,2 +1,2 @@
-include ':openCVLibrary331'
+include ':openCVLibrary331-dev'
 include ':openCVTutorial2MixedProcessing'

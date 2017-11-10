@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/openCVLibrary331/openCVLibrary331.iml" filepath="$PROJECT_DIR$/openCVLibrary331/openCVLibrary331.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openCVLibrary331-dev/openCVLibrary331-dev.iml" filepath="$PROJECT_DIR$/openCVLibrary331-dev/openCVLibrary331-dev.iml" />
       <module fileurl="file://$PROJECT_DIR$/openCVTutorial2MixedProcessing/openCVTutorial2MixedProcessing.iml" filepath="$PROJECT_DIR$/openCVTutorial2MixedProcessing/openCVTutorial2MixedProcessing.iml" />
       <module fileurl="file://$PROJECT_DIR$/tutorial-2-mixedprocessing.iml" filepath="$PROJECT_DIR$/tutorial-2-mixedprocessing.iml" />
     </modules>
