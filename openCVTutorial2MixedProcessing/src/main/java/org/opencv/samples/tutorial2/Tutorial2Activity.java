@@ -75,6 +75,7 @@ public class Tutorial2Activity extends AppCompatActivity implements CvCameraView
         mOpenCvCameraView = (CameraBridgeViewBase) findViewById(R.id.tutorial2_activity_surface_view);
         mOpenCvCameraView.setVisibility(CameraBridgeViewBase.VISIBLE);
         mOpenCvCameraView.setCvCameraViewListener(this);
+        mOpenCvCameraView.enableFpsMeter();
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         myToolbar.setOverflowIcon(null);
