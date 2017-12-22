@@ -1,1 +1,1 @@
-# tutorial-2-mixedprocessing
+# test project for JavaCamera2View
