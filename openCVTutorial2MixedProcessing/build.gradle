@@ -16,7 +16,7 @@ android {
         externalNativeBuild {
             cmake {
                 // Passes optional arguments to CMake.
-                arguments "-DOpenCV_DIR=/home/floe/soft/opencv-android-sdk-3.3.1/sdk/native/jni/"
+                arguments "-DOpenCV_DIR=/home/floe/soft/opencv/opencv-android-sdk-3.4.0-dev/sdk/native/jni/"
                 // Sets optional flags for the C compiler.
                 cFlags "-fexceptions", "-frtti"
             }
