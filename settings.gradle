@@ -1,2 +1,3 @@
-include ':openCVLibrary340-dev'
+include ':app'
+project(':app').projectDir = new File('/home/floe/src/opencv-3.4.0-dev/app/')
 include ':openCVTutorial2MixedProcessing'

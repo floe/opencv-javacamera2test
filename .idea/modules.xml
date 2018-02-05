@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/openCVLibrary340-dev/openCVLibrary340-dev.iml" filepath="$PROJECT_DIR$/openCVLibrary340-dev/openCVLibrary340-dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../opencv-3.4.0-dev/app/app.iml" filepath="$PROJECT_DIR$/../opencv-3.4.0-dev/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/openCVTutorial2MixedProcessing/openCVTutorial2MixedProcessing.iml" filepath="$PROJECT_DIR$/openCVTutorial2MixedProcessing/openCVTutorial2MixedProcessing.iml" />
       <module fileurl="file://$PROJECT_DIR$/opencv-javacamera2test.git.iml" filepath="$PROJECT_DIR$/opencv-javacamera2test.git.iml" />
     </modules>
